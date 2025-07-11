@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Mania</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Quiz Mania</h1>
+    <div id="quiz-container">
+      <p id="question">Carregando pergunta...</p>
+      <div id="timer">Tempo restante: <span id="time">10</span>s</div>
+      <div id="answers"></div>
+      <button id="next-btn">Próxima</button>
+    </div>
+    <div id="result" class="hide">
+      <h2>Você acertou <span id="score"></span> de <span id="total"></span> perguntas!</h2>
+      <button onclick="restartQuiz()">Tentar novamente</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
