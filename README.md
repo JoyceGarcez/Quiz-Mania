@@ -15,14 +15,6 @@ A cada pergunta, o usuário tem um tempo limite para responder, e no final, rece
 - 📱 Totalmente responsivo
 
 ---
-
-## 📸 Demonstração
-
-![Preview](https://via.placeholder.com/600x300?text=Preview+do+Quiz)  
-*(Insira aqui um print ou gif futuramente)*
-
----
-
 ## 🚀 Tecnologias usadas
 
 - HTML5
